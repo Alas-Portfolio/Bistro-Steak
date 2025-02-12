@@ -581,19 +581,20 @@ body {
 
 
 .event-card:nth-child(1) {
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 1.041), rgba(0, 0, 0, 0)), url("images/flavor-feast.png");
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.741), rgba(0, 0, 0, 0)), url("images/flavor-feast.png");
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
 }
 
 .event-card:nth-child(2) {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 1.041), rgba(0, 0, 0, 0)), url("images/flavor-feast.png");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1.041), rgba(0, 0, 0, 0)), url("images/meat-chopper.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .event-card:nth-child(3) {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 1.041), rgba(0, 0, 0, 0)), url("images/flavor-feast.png");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.741), rgba(0, 0, 0, 0)), url("images/night-party.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
